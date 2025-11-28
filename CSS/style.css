@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+  padding: 0;
+  color: #333;
+}
+
+/* --- Start Header and Navigation Layout --- */
+.header-container {
+  background-color: transparent;
+  height: 80px;
+  border: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.logo-dynamic img {
+  display: block;
+  width: 150px;
+  height: 50px;
+}
+
+.navbar > div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar ul li {
+  margin-right: 25px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li a {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  transition: color 0.15s ease-in-out;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar ul li a:hover {
+  color: #38bfc3;
+}
+
+.navbar ul li a span {
+  margin-left: 4px;
+  font-size: 0.75em;
+  line-height: 1;
+}
+
+.search-button {
+  margin-left: 30px;
+  width: 55px;
+  height: 55px;
+  background-color: #c6c628;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.search-button:hover {
+  background-color: #0f5395;
+}
+
+.search-button i {
+  font-size: 20px;
+  color: #fff;
+}
+/* Ends Header and Navigation Layout */
+
+/* Start Hero section layout */
+.banner-section {
+  min-height: 500px;
+  background-image: url("https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-2048x1365.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 80px;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.banner-title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.banner-subtitle {
+  text-align: center;
+  font-size: 1.95rem;
+  font-weight: 900;
+  color: #ffffff;
+  opacity: 0.8;
+  margin-bottom: 2.5rem;
+}
+
+.banner-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: none;
+  font-size: 25px;
+}
+
+#partner {
+  background-color: #663367;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  gap: 30px;
+}
+
+#explore {
+  background-color: #c6c628;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+#hire {
+  background-color: white;
+  border: none;
+  color: #663367;
+  border-radius: 6px;
+}
+/* Ends Hero section layout */
