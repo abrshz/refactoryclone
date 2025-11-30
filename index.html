@@ -32,7 +32,7 @@
             <li class="relative group">
               <a href="#">
                 About Us
-                <span class="ml-1 text-xs">&#x25BE;</span>
+                <span class="arrow">&#x25BE;</span>
               </a>
             </li>
             <li class="relative group">
@@ -42,19 +42,13 @@
               </a>
             </li>
             <li class="relative group hidden lg:block">
-              <a
-                href="#"
-                class="hover:text-lime-300 transition duration-150 flex items-center"
-              >
+              <a href="#" class="">
                 Financial Aid
                 <span class="ml-1 text-xs">&#x25BE;</span>
               </a>
             </li>
             <li class="relative group hidden xl:block">
-              <a
-                href="#"
-                class="hover:text-lime-300 transition duration-150 flex items-center"
-              >
+              <a href="#" class="">
                 Tech Talent
                 <span class="ml-1 text-xs">&#x25BE;</span>
               </a>
@@ -101,7 +95,10 @@
       <div class="button-container">
         <button href="#" class="banner-button" id="partner">
           Partner with us
-          <span class="arrow">&rarr;</span>
+          <i
+            data-lucide="arrow-right"
+            class="fas fa-arrow-right fa-2x fa-sm"
+          ></i>
         </button>
 
         <button href="#" class="banner-button" id="explore">
@@ -146,22 +143,95 @@
         </p>
 
         <button class="learn-more-btn">
-          <a href="#" >
-          Learn more
-          <span class="arrow">&rarr;</span>
+          <a href="#">
+            Learn more
+           <i class="fa-solid fa-arrow-right"></i>
+            <!-- <i
+            data-lucide="arrow-right"
+            class="fas fa-arrow-right fa-3x fa-sm"
+          ></i> -->
           </a>
         </button>
       </div>
 
       <!-- Right Column: Image -->
-      <div class="image-column">
+      <div class="content-column image-column">
         <img
-          src="https://refactory.academy/wp-content/uploads/2025/08/0G2A8223-2048x1365.jpg"
+          src="./Images/About.jpg"
           alt="A group of talented students and mentors at Refactory Academy"
           class="group-image"
         />
       </div>
     </section>
     <!-- About section ends -->
+
+    <!-- Card section start  -->
+    <section class="cart-container">
+      <div class="header-content">
+        <p class="header-subtitle">Start Your Dream Career!</p>
+        <h1 class="header-title">Explore Featured Courses</h1>
+      </div>
+
+      <div class="card-grid">
+        <!-- Card 1: Foundational Courses -->
+        <div class="course-card">
+          <img
+            src="./Images/Card 1.jpg"
+            alt="Students collaborating on laptops in a classroom setting"
+            class="card-image"
+          />
+          <div class="card-content">
+            <h2 class="card-title">Foundational Courses</h2>
+            <p class="card-description">
+              These courses build the essential knowledge and skills needed to
+              thrive in more advanced or specialized tech fields.
+            </p>
+
+            <button class="learn-more-btn">
+              <a href="#"> Learn more </a>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2: Apprenticeship Course -->
+        <div class="course-card">
+          <img
+            src="./Images/Card 2.jpg"
+            alt="A group of students receiving instruction around a table"
+            class="card-image"
+          />
+          <div class="card-content">
+            <h2 class="card-title">Apprenticeship Course</h2>
+            <p class="card-description">
+              Designed to provide aspiring software developers with technical
+              training and industry-led mentorship.
+            </p>
+            <button class="learn-more-btn">
+              <a href="#"> Learn more </a>
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 3: Advanced Courses -->
+        <div class="course-card">
+          <img
+            src="./Images/Card 3.jpeg"
+            alt="Students leaning over a desk looking at a monitor"
+            class="card-image"
+          />
+          <div class="card-content">
+            <h2 class="card-title">Advanced Courses</h2>
+            <p class="card-description">
+              Go beyond the basics to develop mastery in high-demand fields,
+              prepare for innovation-driven careers.
+            </p>
+            <button class="learn-more-btn">
+              <a href="#"> Learn more </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Card section ends -->
   </body>
 </html>
