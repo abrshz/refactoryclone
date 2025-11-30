@@ -345,3 +345,86 @@
 }
 
 /* Card section ends */
+
+/* Success section start */
+.success-section {
+    background-color: #002A48;
+    color: #fff;
+    padding: 60px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.success-section h2 {
+  color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 40px;
+    grid-column: 1 / -1; 
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px;
+    position: relative; 
+}
+
+.image-gallery {
+    position: relative;
+    width: 45%;
+    min-height: 320px; 
+}
+
+.image-card {
+    background-color: #fff;
+    border: 8px solid #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.top-image {
+    top: 0;
+    left: 0;
+    transform: rotate(-8deg);
+    background-image: url('https://refactory.academy/wp-content/uploads/2025/08/The-Digital-Solutions-Expo-2025-304.jpg'); 
+}
+
+.bottom-image {
+    bottom: -30px;
+    right: -20px;
+    transform: rotate(15deg);
+    background-image: url('https://refactory.academy/wp-content/uploads/2025/08/MASH6802-2048x1365.jpeg'); 
+}
+
+.stats-grid {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 50px;
+}
+
+.stat-item .number {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    color: #fff;
+    line-height: 1;
+}
+
+.stat-item .label {
+    font-size: 1.5em;
+    margin: 0;
+    opacity: 0.8;
+    color: #fff;
+}
+
+/* Success section ends  */
